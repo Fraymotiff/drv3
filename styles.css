@@ -1,59 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
 
 
-  @import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
-
-
-  * { margin :0;
-  }
-  body { height: 100vh;
-      width: 300; }
-  *{
-    margin:0;
-    padding:0;
- background-color:rgb(247, 247, 247) ;
+* { margin :0;
+}
+body { height: 100vh;
+    width: 300; }
+*{
+  margin:0;
+  padding:0;
+background-color:rgb(247, 247, 247) ;
 list-style: none;
 text-decoration: none;}
 
 header {
-    height: 90px;
-    display:flex;
-    justify-content : space-around;
-    align-items: center; 
+  height: 90px;
+  display:flex;
+  justify-content : space-around;
+  align-items: center; 
 }
 
 
 nav {
-    width: 60%;
+  width: 60%;
 
 }
 
 ul{
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
 
 }
 
 li{
-    list-style: none;
-    color: black;
-    cursor: pointer;
-    font-size: 19px;
-    transition: .5s;
-    font-family: 'Kdam Thmor Pro',sans-serif;
+  list-style: none;
+  cursor: pointer;
+  color:black;
+  font-size: 19px;
+  transition: .5s;
+  font-family: 'Kdam Thmor Pro',sans-serif;
 }
 
 li:hover {
-    color:brown
+  color:brown
 }
 
 #logo {
-    width: 250px;
-    height:auto;
+  width: 250px;
+  height:auto;
 }
 
 #banner {
-    background-image: url('https://images.squarespace-cdn.com/content/v1/58b3cae5d1758e0132a008c6/1506601258187-V9GKXXQGSNXRNI460F6O/71PhOO-nOJL.jpg');
+  background-image: url('https://images.squarespace-cdn.com/content/v1/58b3cae5d1758e0132a008c6/1506601258187-V9GKXXQGSNXRNI460F6O/71PhOO-nOJL.jpg');
 background-position: 50% 50%;
 background-size: cover;
 width: 100%;
@@ -61,34 +59,33 @@ height:520px;
 }
 
 #trailer-container { 
-    width: 100%;
-    height: 400px;
-    display: flex;
-    justify-content: center;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
 
 
 }
 
 .content {
-    width: 60%;
-    display: flex;
-    justify-content: space-between;
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
 
 
 }
 
 .trailer {
-    margin-bottom: 60px;
-    width: 58%;
+  margin-bottom: 60px;
+  width: 58%;
 }
 
 #sinopse {
-    width: 30%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin-left: 30px;
-}
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 30px;}
 
 .description { 
     color:black;
@@ -136,7 +133,7 @@ margin-top: 170px;
 .cards-content {
   width: 1%;
   display: grid;  
-grid-template-columns: repeat(3, 1fr)
+grid-template-columns: repeat(3, 1fr);
   row-gap: 20px;
   column-gap: 40px;
  ;
@@ -150,10 +147,10 @@ grid-template-columns: repeat(3, 1fr)
     cursor: pointer;
     transition: 1s;
     display: flex;
-    flex-direction: column
+    flex-direction: column;
     justify-content:flex-end;
     padding: 0 0 20px 10px;
-    color: #ffff
+    color: #ffff;
     font-size: 17px;
     font-family: 'Kdam Thmor Pro',sans-serif;
 }
@@ -179,7 +176,7 @@ grid-template-columns: repeat(3, 1fr)
 footer {
     height: 300px;
     margin-top: 50px;
-    display:flex
+    display:flex;
     flex-direction:column;
     align-items:center;
     justify-content: space-around;
@@ -202,53 +199,18 @@ align-items: center;
 }
 
 .footer-navigaton {
-    display: none;
-}
-
-@media(max-width: 768px){
-    .footer-navigaton
-    display:block;
-
-nav {display:none;
-}
-
-#banner { background-position: 40%;}
-
-#trailler-container{
-    width: 100%;
-height: 400px;
-display:flex;
-fkex-direction:column;
-}
-
-.content{
-    width:95%;
-    display: flex;
-    flex-direction: column;
+display:none
 
 }
 
-.trailer { width: 100%;}
 
-#sinopse {
-    width:95%;
-    display:flex;
-    flex-direction: column;
-    justify-content: space-between;
-
+@media( max-width: 600px){
+    .footer-navigation {
+        display: block;
     
-}
-.description {
-    width:100%;
-
-}
-.button {
-width: 100%
-margin-top: 30px
-}
-
-.cards-content {
-    grid-template-columns: 1fr;
-    margin-top:150px;
-}
+    }
+    .footer-list{
+        display:block;
+    }
+nav { display: none;}
 }

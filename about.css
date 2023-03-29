@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+
+* { margin :0;
+}
+body { height: 100vh;
+    width: 300; }
+*{
+  margin:0;
+  padding:0;
+background-color:rgb(247, 247, 247) ;
+list-style: none;
+text-decoration: none;}
+
+header {
+  height: 90px;
+  display:flex;
+  justify-content : space-around;
+  align-items: center; 
+}
+
+
+nav {
+  width: 60%;
+
+}
+
+ul{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+
+}
+
+li{
+  list-style: none;
+  cursor: pointer;
+  color:black;
+  font-size: 19px;
+  transition: .5s;
+  font-family: 'Kdam Thmor Pro',sans-serif;
+}
+
+li:hover {
+  color:brown
+}
+
+#logo {
+  width: 250px;
+  height:auto;
+}
+
+#banner {
+  background-image: url('https://images.squarespace-cdn.com/content/v1/58b3cae5d1758e0132a008c6/1506601258187-V9GKXXQGSNXRNI460F6O/71PhOO-nOJL.jpg');
+background-position: 50% 50%;
+background-size: cover;
+width: 100%;
+height:520px;
+}
+
+footer {
+    height: 300px;
+    margin-top: 50px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: space-around;
+}
+
+span{
+
+    color: black;
+    font-family: 'Kdam Thmor Pro',sans-serif;
+    align-items: center;
+
+}
+
+
+.abt{
+    color: black;
+    font-family: 'Kdam Thmor Pro',sans-serif;
+    align-items: center;
+font-size: 25px;
+margin-left: 650px;
+
+}
+
+
+
+.desc{
+    color: black;
+    font-family: 'Kdam Thmor Pro',sans-serif;
+    align-items: center;
+    width:40%;
+    font-size: 15px;
+    margin-left: 650px;
+}
+
+
+
+
+
+
+.img{
+    height: 700px;
+    width:auto;
+    margin-top: 25px;
+    margin-right: -20px;
+    position:absolute;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.footer-list {
+    display:flex;
+    flex-direction:column;
+align-items: center;
+}
+
+.footer-navigaton {
+display:none
+
+}
+
+
+@media( max-width: 600px){
+    .footer-navigation {
+        display: block;
+    
+    }
+    .footer-list{
+        display:block;
+    }
+nav { display: none;}
+}
