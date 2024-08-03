@@ -114,6 +114,10 @@ margin-top: 170px;
 
 
 }
+.linkbuy {
+  background-color: none;
+  color: white
+}
 
 .button:hover {
     background-color: #fff;
