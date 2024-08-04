@@ -96,7 +96,14 @@ margin-left: 650px;
     margin-left: 650px;
 }
 
-
+.desc2{
+  color: black;
+  font-family: 'Kdam Thmor Pro',sans-serif;
+  align-items: center;
+  width:40%;
+  font-size: 15px;
+  margin-left: 650px;
+}
 
 
 
@@ -124,13 +131,70 @@ display:none
 }
 
 
-@media( max-width: 600px){
-    .footer-navigation {
-        display: block;
-    
-    }
-    .footer-list{
-        display:block;
-    }
-nav { display: none;}
+@media (max-width: 768px){
+
+  .footer-navigaton{
+    display: block;
+
+  }
+
+  nav {
+    display: none;
+
+
+  }
+
+  #banner {
+   background-position: 40%;
+
+  }
+
+
+  .img{
+    width: 80%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-top: 55px;
+   
+
+}
+
+.abt{
+  align-items: center;
+font-size: 25px;
+margin-left:180px;
+
+}
+
+
+
+.desc{
+  align-items: center;
+  width:80%;
+  font-size: 15px;
+  margin-left: 30px;
+  margin-top:  630px;
+  display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+
+.desc{
+  align-items: center;
+  width:80%;
+  font-size: 15px;
+  margin-left: 30px;
+  margin-top:  630px;
+  display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+
+
+
+
+
+
 }
